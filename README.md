@@ -11,8 +11,7 @@ Este programa se centra en la busqueda y manejo de un catálogo de películas, i
 4. Pega la URL del repositorio: `(https://github.com/littlenegrito/Tarea-Estructura-2.git)`.
 5. [Repl.it](http://repl.it/) clonará el repositorio y preparará un entorno de ejecución.
 6. Antes de ejecutar, copia el codigo `(gcc tdas/*.c main.c -Wno-unused-result -o main)` en la configuración de compilar
-7. Luego, copia el codigo `(gcc -o main main.c tdas/extra.c tdas/list.c tdas/map.c && ./main)` en la configuración de ejecutar 
-8. Presiona el botón "Run" para compilar y ejecutar la aplicación.
+7. Presiona el botón "Run" para compilar y ejecutar la aplicación.
 
 ## Funcionalidades
 
