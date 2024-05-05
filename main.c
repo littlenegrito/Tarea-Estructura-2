@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct {
+typedef struct { // estructura de pélicula incluyendo cada campo relevante
   char id[100];
   char title[100];
   List *genres;
