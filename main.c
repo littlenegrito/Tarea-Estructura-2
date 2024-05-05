@@ -291,7 +291,7 @@ void buscar_por_director(Map *mapa) {
 void buscar_por_decada(Map *mapa) {
   char anio[10]; // Buffer para almacenar cadenas
   char filtro[] = "decada";
-  printf("Ingrese un año o década entre 1900-2020: ");
+  printf("Ingrese un año entre 1900-2024: ");
   scanf(" %[^\n]", anio); 
   int decada = (atoi(anio) / 10) *10; // convertir a int y calcular decada
   
@@ -336,7 +336,7 @@ List* peliculasFiltroLista(List *peliculas, char *filtro, char* variable) {
 void buscar_por_decadaGenero(Map *mapa) {
   char anio[10]; // Buffer para almacenar cadenas
   char genero[100]; 
-  printf("Ingrese una década (1900 - 2020): ");
+  printf("Ingrese un año entre 1900 - 2024: ");
   scanf(" %[^\n]", anio); 
   int decada = (atoi(anio) / 10) *10; // convertir año en decada
   
