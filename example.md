@@ -1,33 +1,36 @@
 ##Ejemplo de uso
-#Paso 1: Registrar un Nuevo Paciente
+#Opción 1) Cargar catálogo
+Se comienza registrando el archivo con todas las películas. El sistema ingresa todas las películas y guarda la información de cada una en un mapa para luego accederlas.
 
-Se comienza registrando un nuevo paciente que acaba de llegar al hospital.
+# Opción 2) Buscar por id
+Ingrese el id de la película: tt0120915
 
-Opción seleccionada: 1) Registrar paciente
-Ingrese el nombre del paciente: Pedro Guzman
-Ingrese la edad del paciente: 13
-Ingrese el síntoma del paciente: Cancer
-El sistema registra a Pedro Guzmán con una prioridad inicial "Bajo" y guarda la hora actual de registro. La prioridad inicial puede ser ajustada más tarde basada en una evaluación médica más detallada.
+Retorna el título y año de la película: 
+###Star Wars: Episode I - The Phantom Menace, Año: 1999
 
-#Paso 2: Asignar Prioridad a un Paciente
+#Opción 3) Buscar por director
+Ingrese un director: Christopher Nolan
 
-Tras una evaluación inicial, el médico determina que el estado de Guzmán requiere atención prioritaria.
+Retorna una lista de todas las películas del director especifico:
 
-Opción seleccionada: 2) Asignar prioridad a paciente
-Ingrese el nombre del paciente: Pedro Guzmán
-Seleccione el nuevo nivel de prioridad (Alto, Medio, Bajo): Alto
-El sistema actualiza la prioridad de Pedro Guzmán a "Alto", asegurando que será uno de los próximos pacientes en ser atendido.
+###Se han encontrado 8 películas de Christopher Nolan
 
-#Paso 3: Ver la Lista de Espera
+#Opción  4) Buscar por género
+El sistema busca todas las películas de un género especifico, sin imporar la prioridad del género en caso de que tenga múltiples géneros
+Ingrese un género: Crime
 
-El usuario revisa la lista de espera para ver todos los pacientes y sus prioridades.
+###Se han encontrado 341 películas de Crime
 
-Opción seleccionada: 3) Mostrar lista de espera
-La lista muestra a Pedro Guzmán en la parte superior, indicando su prioridad alta y que es el siguiente en línea para recibir atención.
+#Opción 5) Buscar por década
+El sistema busca todas las películas en intervalos de 10 años, convirtiendo el año ingresado por el usuario en el apropiado de cada década
 
-#Paso 4: Atender al Siguiente Paciente
+Ingrese un año entre 1900 y 2024: 1983
+###Se han encontrado 184 películas de 1980
 
-Pedro Guzmán es llamadp para ser atendido basándose en su prioridad.
+#Opción 6) Buscar por década y género
+El sistema crea una lista de todas las películas de una década y en base a esta hace un filtro de género
 
-Opción seleccionada: 4) Atender al siguiente paciente
-El sistema muestra que Pedro Guzmán está siendo atendido y lo elimina de la lista de espera.
+Ingrese un año entre 1900 y 2024: 2015
+Ingrese un género: Thriller
+
+###Se han encontrado 24 películas de Thriller
