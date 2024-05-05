@@ -2,7 +2,7 @@
 #Opción 1) Cargar catálogo
 Se comienza registrando el archivo con todas las películas. El sistema ingresa todas las películas y guarda la información de cada una en un mapa para luego accederlas.
 
-# Opción 2) Buscar por id
+#Opción 2) Buscar por id
 Ingrese el id de la película: tt0120915
 
 Retorna el título y año de la película: 
