@@ -12,6 +12,7 @@ Este programa se centra en la busqueda y manejo de un catálogo de películas, i
 5. [Repl.it](http://repl.it/) clonará el repositorio y preparará un entorno de ejecución.
 6. Antes de ejecutar, copia el codigo `(gcc tdas/*.c main.c -Wno-unused-result -o main)` en la configuración de compilar
 7. Presiona el botón "Run" para compilar y ejecutar la aplicación.
+8. Borra el codigo de compilar en la configuración para no tener que compilar cada vez que se ejecuta.
 
 ## Funcionalidades
 
