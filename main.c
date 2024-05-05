@@ -136,7 +136,7 @@ void cargar_peliculas(Map *pelis_byid) {
   MapPair *pair = map_first(pelis_byid);
   while (pair != NULL) {
     Film *peli = pair->value;
-    printf("ID: %s, Título: %s, Año: %d, Rating: %.1f, Decada: %d\n", peli->id, peli->title,
+    printf("ID: %s, Título: %s, Año: %d, Rating: %.1f, Década: %d\n", peli->id, peli->title,
          peli->year, peli->rating, peli->decade);
     
     printf("Géneros: ");
